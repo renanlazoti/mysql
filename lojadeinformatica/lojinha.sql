@@ -6,6 +6,7 @@
 
 create database lojinhalazoti;
 use lojinhalazoti;
+
 create table produtos(
 	id int primary key auto_increment,
     produto varchar(255) not null,
@@ -32,6 +33,9 @@ values ('Smart TV LG 43 4K UHD','TV',170,'2041.55');
 
 insert into produtos (produto, setor, quantidade, valor)
 values ('Xbox Series S','Consoles','106','2149.00');
+
+insert into produtos (produto, setor, quantidade, valor)
+values ('Caixa de Som Portátil JBL Boombox 2', 'Audio', '20','2374.05');
 
 select * from produtos;
 
